@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color:  whitesmoke;
+}
+
+
+.contenedor{
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(3, 196, 255);
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenedorAgregarTarea{
+    display: flex;
+    justify-content: center;
+}
+
+#botonAgregar{
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 10px #9900ff;
+    color: #9900ff;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px, 5px;
+    margin-left: 8px;
+}
+
+.nuevaTarea
+	{
+		background-color: #f2f2f2;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+
+#tareaInput{
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  background-color: #000000;
+}
+
+.nuevaTarea{
+    color: black;
+}
+.botonEliminar{
+   margin-left: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 10px red;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px, 5px;
+    margin-left: 8px;
+}
